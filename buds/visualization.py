@@ -47,6 +47,7 @@ def run_visualization(conn: GalaxyBudsConnection):
     try:
 
         from mpl_toolkits.mplot3d import Axes3D
+        import matplotlib.pyplot as plt
     except ImportError:
         return run_terminal_mode(conn)
     
@@ -57,7 +58,7 @@ def run_visualization(conn: GalaxyBudsConnection):
     width, height = 640, 480
     if HAS_OPENCV:
 
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
         if cap.isOpened():
             # Get actual webcam resolution
             width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))

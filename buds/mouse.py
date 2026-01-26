@@ -213,7 +213,7 @@ def run_mouse_mode(conn: GalaxyBudsConnection):
     gesture_ctrl = GestureController()
     
     # Open webcam
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     if not cap.isOpened():
         print("Webcam error")
         return

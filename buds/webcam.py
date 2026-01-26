@@ -132,7 +132,7 @@ def run_webcam_visualization(conn: GalaxyBudsConnection):
     print("Press 'Q' to quit\n")
     
     # Open webcam
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     if not cap.isOpened():
         print("Error: Could not open webcam")
         return

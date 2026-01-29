@@ -1,4 +1,4 @@
-# 3. Methodology
+# 1. Methodology
 
 This section details the rigorous reverse engineering process employed to decipher the proprietary communication protocol of the Samsung Galaxy Buds and the mathematical framework established to utilize the extracted sensor data for spatial interaction.
 

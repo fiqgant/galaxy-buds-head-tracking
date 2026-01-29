@@ -58,7 +58,7 @@ def run_visualization(conn: GalaxyBudsConnection):
     width, height = 640, 480
     if HAS_OPENCV:
 
-        cap = cv2.VideoCapture(1)
+        cap = cv2.VideoCapture(0)
         if cap.isOpened():
             # Get actual webcam resolution
             width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))

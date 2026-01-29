@@ -19,9 +19,9 @@ This project reverse-engineers the proprietary Bluetooth RFCOMM protocol of **Sa
 -   **Multimodal Mouse Control**:
     -   **Point**: Move cursor with head rotation (Yaw/Pitch).
     -   **Click**: Use hand gestures via Webcam (MediaPipe).
-        -   👌 **Pinch** (Thumb+Index) = Left Click
-        -   🖕 **Middle Pinch** (Thumb+Middle) = Right Click
-        -   ✊ **Fist** = Drag & Drop
+        -   **Pinch** (Thumb+Index) = Left Click
+        -   **Middle Pinch** (Thumb+Middle) = Right Click
+        -   **Fist** = Drag & Drop
 
 ## 📦 Requirements
 
